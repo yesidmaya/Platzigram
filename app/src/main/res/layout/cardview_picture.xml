@@ -68,6 +68,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/firstworrd_textsize_card"
                     android:layout_marginLeft="@dimen/timecard_marginleft_card"/>
+
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
