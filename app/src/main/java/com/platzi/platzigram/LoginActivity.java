@@ -24,5 +24,6 @@ public class LoginActivity extends AppCompatActivity {
     public void goLogin(View view){
         Intent intent = new Intent(this, ContainerActivity.class);
         startActivity(intent);
+
     }
 }
