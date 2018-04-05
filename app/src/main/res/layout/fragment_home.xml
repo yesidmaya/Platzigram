@@ -17,7 +17,8 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
         <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" //Para que no se sobreponga-->
-        <include layout="@layout/cardview_picture"/>
+        <include layout="@layout/cardview_picture"/> <!--llamamos al cardview-->
+        <include layout="@layout/cardview_picture"/> <!--llamamos al cardview-->
     </LinearLayout>
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

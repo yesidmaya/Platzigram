@@ -5,6 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.platzi.platzigram.view.ContainerActivity">
+    
+    <FrameLayout
+        android:id="@+id/containerid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/bottombar_height"/> <!--vamos a inyectar la vista del fragment-->
+    <include layout="@layout/bottombar"></include> <!--llamamos o colocamos a nuestro toolbar-->
 
-    <include layout="@layout/bottombar"></include>
 </RelativeLayout>
