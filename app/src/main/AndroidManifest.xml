@@ -16,21 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--Para trabajar en el boton up-->
-        <activity android:name=".view.CreateAccountActivity"
-            android:parentActivityName=".LoginActivity"> <!--android:parentActivityName=".LoginActivity" //A la actividad hijo le estoy asignando una jerarquia -->
+        <!-- Para trabajar en el boton up -->
+        <activity
+            android:name=".view.CreateAccountActivity"
+            android:parentActivityName=".LoginActivity"> <!-- android:parentActivityName=".LoginActivity" //A la actividad hijo le estoy asignando una jerarquia -->
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LoginActivity"/> <!--Colocamos la actividad padre-->
-                <!--con esta line estamos dando soporte para versiones anteriores-->
+                android:value=".LoginActivity" /> <!-- Colocamos la actividad padre -->
+            <!-- con esta line estamos dando soporte para versiones anteriores -->
 
         </activity>
-
         <activity
             android:name=".ReferenciaActivity"
             android:label="@string/title_activity_referencia"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ContainerActivity"></activity>
     </application>
 
 </manifest>

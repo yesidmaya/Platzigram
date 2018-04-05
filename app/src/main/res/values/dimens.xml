@@ -1,9 +1,10 @@
 <resources>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="edittext_textsize_login">22sp</dimen>
     <dimen name="padding_horizontal_login">32dp</dimen>
     <dimen name="textsize_donthaveaccon">16sp</dimen>
-    <dimen name="activity_vertical_margin">42dp</dimen>
     <dimen name="edittext_margin_createaccount">10dp</dimen>
     <dimen name="heigth_cardview">200dp</dimen>
     <dimen name="cornerradius_carview">4dp</dimen>
@@ -12,4 +13,5 @@
     <dimen name="timecard_marginleft_card">5dp</dimen>
     <dimen name="like_margintop_card">10dp</dimen>
     <dimen name="activity_vertical_margin_card">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
 </resources>
