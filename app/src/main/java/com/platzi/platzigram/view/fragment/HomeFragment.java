@@ -34,7 +34,7 @@ public class HomeFragment extends Fragment {
         // el view que va a crear es
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         // vamos a mostrar el showtoolbar
-        showToolbar("Home",false,view);
+        showToolbar(getResources().getString(R.string.tab_home),false,view);
         // instanciamos RecyclerView
         RecyclerView picturesRecycler = (RecyclerView) view.findViewById(R.id.pictureRecycler);
         // vamos a darle forma con linearlayoutmanager
@@ -59,10 +59,11 @@ public class HomeFragment extends Fragment {
         ArrayList<Picture> pictures = new ArrayList<>();
         // agregamos las pictures
         pictures.add(new Picture("https://s-media-cache-ak0.pinimg.com/originals/9f/26/80/9f26808c61574d97b826e6a8905e7272.jpg","Uriel Ramirez","3 Días","23 Me Gusta"));
-        pictures.add(new Picture("https://cdn.pixabay.com/photo/2017/03/03/14/27/sunset-2114069__340.jpg","Uriel Ramirez","4 Días","73 Me Gusta"));
-        pictures.add(new Picture("https://cdn.pixabay.com/photo/2013/09/11/19/31/landscape-181484_640.jpg","Juan Pablo Ramirez","5 Días","13 Me Gusta"));
-        pictures.add(new Picture("http://www.ensiibague.edu.co/portalnew/wp-content/uploads/2015/05/Paisajes-Bonitos-Atardecer-12.jpg","Uriel Ramirez","7 Días","43 Me Gusta"));
+
+        pictures.add(new Picture("https://i.pinimg.com/originals/9f/c5/18/9fc518ac6dc27de74448324b2a389c48.jpg","Juan Pablo Ramirez","5 Días","13 Me Gusta"));
+        pictures.add(new Picture("http://www.ensiibague.edu.co/portalnew/wp-content/uploads/2015/05/Paisajes-Bonitos-Atardecer-12.jpg","Luis Lopez","7 Días","43 Me Gusta"));
         pictures.add(new Picture("https://static.panoramio.com.storage.googleapis.com/photos/large/5046641.jpg","Zuleima","4 Días","13 Me Gusta"));
+        pictures.add(new Picture("http://www.viajesgeotours.com/images/portafolio/imagen_id_6365.jpg","Carlos Ramirez","4 Días","73 Me Gusta"));
         return pictures;
     }
 
