@@ -5,7 +5,8 @@
     android:id="@+id/prictureCard"
     android:layout_width="match_parent"
     android:layout_height="@dimen/heigth_cardview"
-    cardview:cardCornerRadius="@dimen/cornerradius_carview">
+    cardview:cardCornerRadius="@dimen/cornerradius_carview"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
 
     <FrameLayout
         android:layout_width="match_parent"
